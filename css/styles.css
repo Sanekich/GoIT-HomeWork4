@@ -10,6 +10,9 @@
   --border-color: #e7e9fc;
 }
 
+a:-webkit-any-link{
+  text-decoration: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
@@ -133,6 +136,12 @@ img {
   height: 4px;
   background-color: #404bbf;
   transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  color: #404bbf;
+}
+
+.nav-link.link-current {
+  color: #404bbf;
 }
 
 .link-current::after {
@@ -142,6 +151,7 @@ img {
 .nav-link:hover::after,
 .nav-link:focus::after {
   width: 100%;
+  color: #404bbf;
 }
 
 .contacts {
