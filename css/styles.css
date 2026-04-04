@@ -240,21 +240,12 @@ img {
 }
 
 .features-icon-wrapper {
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: var(--light-bg);
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .features-icon {
-  width: 64px;
-  height: 64px;
-  fill: var(--accent-color);
+  width: 264px;
+  height: 112px;
 }
 
 .features-subtitle {
@@ -332,10 +323,6 @@ img {
   justify-content: center;
 }
 
-.social-item {
-  width: 40px;
-  height: 40px;
-}
 
 .social-link {
   display: flex;
@@ -353,9 +340,6 @@ img {
   background-color: var(--social-hover);
 }
 
-.social-icon {
-  fill: #f4f4fd;
-}
 
 
 
