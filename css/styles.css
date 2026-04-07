@@ -243,6 +243,7 @@ img {
   width: 100%;
   height: 112px;
   background-color: var(--light-bg);
+  border: 1px solid #8e8f99;
   border-radius: 4px;
   margin-bottom: 8px;
 }
